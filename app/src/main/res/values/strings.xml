@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">MCEY Guard</string>
+    <string name="service_label">MCEY Guard Engelleyici</string>
+    <string name="subtitle">Uygulama mağazalarını, oyunları ve seçtiğin uygulamaları engelle.</string>
+
+    <string name="accessibility_description">MCEY Guard; açılan uygulamayı kontrol eder ve engelli listedeki bir uygulama açıldığında onu kapatıp ana ekrana döner. Bu izin, ön plandaki uygulamanın adını okumak için gereklidir.</string>
+
+    <string name="status_unknown">Erişilebilirlik servisi durumu kontrol ediliyor…</string>
+    <string name="status_on">✓ Koruma aktif. Erişilebilirlik servisi açık.</string>
+    <string name="status_off">⚠ Çalışması için erişilebilirlik servisini açmalısın. Aşağıdaki düğmeye bas, listeden \"MCEY Guard\"ı bul ve aç.</string>
+
+    <string name="btn_open_accessibility">Erişilebilirliği Aç</string>
+    <string name="btn_open_accessibility_settings">Erişilebilirlik Ayarları</string>
+
+    <string name="sw_protection">Korumayı etkinleştir</string>
+    <string name="sw_stores">Uygulama mağazalarını engelle (Play Store, Galaxy Store, Aptoide, APKPure…)</string>
+    <string name="sw_games">Oyunları engelle (otomatik tespit)</string>
+    <string name="sw_installer">APK yükleyiciyi engelle (yandan kurulumu durdurur)</string>
+
+    <string name="label_message">Engellendiğinde ekranda çıkacak yazı</string>
+    <string name="default_block_message">Bu uygulamaya erişim engellendi.</string>
+    <string name="btn_save_message">Yazıyı Kaydet</string>
+
+    <string name="btn_pick_apps">Engellenecek uygulamaları seç</string>
+    <string name="btn_overlay_permission">Ekran üstü uyarı iznini ver</string>
+
+    <string name="footer_note">Not: Tam ekran kırmızı uyarı için \"ekran üstü\" izni gerekir. İzin verilmezse uyarı kısa bir bildirim (Toast) olarak gösterilir. Her iki durumda da engellenen uygulama kapatılır.</string>
+
+    <string name="toast_message_saved">Uyarı yazısı kaydedildi.</string>
+    <string name="toast_overlay_already">Ekran üstü izni zaten verilmiş.</string>
+
+    <string name="title_app_list">Uygulama Seç</string>
+    <string name="empty_apps">Uygulama bulunamadı.</string>
+</resources>
