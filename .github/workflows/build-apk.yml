@@ -21,9 +21,6 @@ jobs:
           distribution: temurin
           java-version: '17'
 
-      - name: Android SDK kur
-        uses: android-actions/setup-android@v3
-
       - name: Gradle wrapper çalıştırılabilir yap
         run: chmod +x ./gradlew
 
